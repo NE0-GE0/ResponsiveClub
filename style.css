@@ -1,0 +1,183 @@
+
+/*  * {
+    border: 1px solid red;
+} */
+
+* {
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 16px;
+    
+}
+
+body {
+    background-color: black;
+    color: white;
+    
+
+}
+
+nav {
+    position: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+nav li {
+    
+    float: left;
+}
+
+nav li a {
+    display: block;
+    padding: 1rem 1rem;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+  }
+
+
+.banner {
+    width: auto;
+    height: 45rem;
+    background-image: url("./images/chess-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: 8rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 6rem;
+    padding-top: 20%;
+    text-shadow: .25rem .25rem gray;
+}
+
+h2 {
+   font-size: 3rem;
+   text-align: center;
+   line-height: 1.2; 
+   margin-bottom: 2rem;
+   font-family: 'Oswald', sans-serif;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   clear: both; 
+   margin-left: auto;
+   margin-right: auto;
+   /* background-color: red; */
+   width: 100%;
+
+   
+}
+
+p {
+    /* margin: 2rem 10rem; */
+    font-family: 'Orbitron', sans-serif;
+    word-spacing: 0.3rem;
+    line-height: 1.5;
+
+    
+    
+
+}
+
+.section {
+    
+
+}
+
+
+
+
+
+#schedule ul {
+    text-align: left;
+    list-style-type: none;
+    line-height: 1.5;
+    word-spacing: 0.2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.left-col img {
+    max-width: 90%;
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+        
+}
+
+.left-col {
+    float: left;
+    /* background-color: skyblue; */
+    width: 30%;
+    height: auto;
+    padding: 1rem;
+       
+    
+}
+.main-col {
+    
+    /* background-color: purple; */
+    width: 80%;
+    max-width: 800px;
+    padding: 1rem;
+    float: left;   
+
+}
+
+#contact ul {
+    text-align: left;
+    list-style-type: none;
+    line-height: 1.5;
+    word-spacing: 0.2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+h3{
+    text-align: center;
+}
+
+#photos {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30rem;
+    width: 90%;
+    
+    display: block;
+}
+
+#photos img {
+    float: left;
+    width: 23rem;
+    height: 13rem;
+    object-fit: cover;
+    padding: 0.5rem;
+    margin-left: auto;
+
+}
+
+
+
+/* .container .photo {
+    clear: left; */
+}
+
+@media only screen and (max-width: )
