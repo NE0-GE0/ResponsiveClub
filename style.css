@@ -82,7 +82,6 @@ h2 {
    clear: both; 
    margin-left: auto;
    margin-right: auto;
-   /* background-color: red; */
    width: 100%;
 
    
@@ -108,12 +107,13 @@ p {
 
 
 
-#schedule ul {
+.schedule ul {
     text-align: left;
     list-style-type: none;
     line-height: 1.5;
     word-spacing: 0.2rem;
     font-family: 'Orbitron', sans-serif;
+    
 }
 
 
@@ -127,7 +127,6 @@ p {
 
 .left-col {
     float: left;
-    /* background-color: skyblue; */
     width: 30%;
     height: auto;
     padding: 1rem;
@@ -144,12 +143,13 @@ p {
 
 }
 
-#contact ul {
+.contact ul {
     text-align: left;
     list-style-type: none;
     line-height: 1.5;
     word-spacing: 0.2rem;
     font-family: 'Orbitron', sans-serif;
+    
 }
 h3{
     text-align: center;
@@ -174,10 +174,265 @@ h3{
 
 }
 
-
-
-/* .container .photo {
-    clear: left; */
+footer {
+    clear: both;
+    background-color: #333;
 }
 
-@media only screen and (max-width: )
+
+@media only screen and (max-width: 1250px) {
+    
+    .left-col {
+        float: left;
+        width: 25%;
+        height: auto;
+        padding: 1rem;
+           
+        
+    }
+    .main-col {
+        width: 75%;
+        
+        padding: 1rem;
+        float: left;   
+    
+    }
+    h2 {
+        font-size: 2.7rem;
+    }
+    p {
+        /* margin: 2rem 10rem; */
+        font-family: 'Orbitron', sans-serif;
+        word-spacing: 0.3rem;
+        line-height: 1.5;
+        font-size: 0.9rem;
+
+    }
+    .schedule ul {
+        
+        line-height: 1.5;
+        word-spacing: 0.2rem;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 0.9rem;
+        
+    }
+    .contact ul {
+        
+        line-height: 1.2;
+        word-spacing: 0.2rem;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 0.9rem;
+    }
+    #photos {
+        margin-left: auto;
+        margin-right: auto;
+        
+        width: 90%;
+        
+        display: block;
+    }
+    
+    #photos img {
+        float: left;
+        width: 20rem;
+        height: 10rem;
+        object-fit: cover;
+        padding: 0.5rem;
+        margin-left: auto;
+    
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .left-col {
+        float: left;
+        width: 20%;
+        height: auto;
+        padding: 1rem;
+           
+        
+    }
+
+
+    .main-col {
+        width: 70%;
+        
+        padding: 1rem;
+        float: left;   
+    
+    }
+    #photos {
+        margin-left: auto;
+        margin-right: auto;
+        
+        width: 90%;
+        
+        display: block;
+    }
+    
+    #photos img {
+        float: left;
+        width: 17.5rem;
+        height: 9rem;
+        object-fit: cover;
+        padding: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+}
+    @media only screen and (max-width: 1060px) {
+        h2 {
+            font-size: 2.5rem;
+        }
+    
+        .left-col {
+            float: left;
+            width: 30%;
+            height: auto;
+            padding: 1rem;
+               
+            
+        }
+        .main-col {
+            width: 60%;
+            
+            padding: 1rem;
+            float: left;   
+        }
+        .title {
+            font-size: 5.5rem;
+        }
+        #photos {
+            margin-left: auto;
+            margin-right: auto;
+            
+            width: 100%;
+            
+            display: block;
+        }
+        
+        #photos img {
+            float: left;
+            width: 26rem;
+            height: 14rem;
+            object-fit: cover;
+            padding: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            
+    }
+}
+    @media only screen and (max-width: 980px) {
+        .title {
+            font-size: 4.5rem;
+        }
+        
+        .pictures {
+           margin-left: auto;
+           margin-right: auto; 
+
+            
+            width: 100%;
+            
+            
+        }
+        
+        #photos img {
+            
+            width: 50rem;
+            height: 24rem;
+            object-fit: cover;
+            padding: 0.4rem;
+            
+    }
+    
+    }
+    @media only screen and (max-width: 912px) {
+        .contact {
+           font-size: 5rem;
+           letter-spacing: .1rem; 
+        }
+        #photos {
+            margin: 0 auto;
+            width: 90%;
+        }
+
+        #photos img {
+            
+            width: 100%;
+        }
+
+    
+    * {
+        border: 1px solid red;
+    }
+    @media only screen and (max-width: 700px) {
+        nav li a {
+            display: block;
+            padding: 0.5rem 0.5rem;
+            font-size: 0.85rem;
+            text-align: center;
+            color: white;
+            background-color: #333;
+            opacity: 0.75;
+            text-decoration: none;
+        }
+        .main-col {
+            float: left;
+            
+            display: block;
+            width: 95%;
+           
+        }
+        .left-col {
+            float: none;
+            
+            width: 100%;
+           
+
+        }
+        .photo {
+            margin: auto;
+            /*margin-left: auto;
+            margin-right: auto; */
+            width: 40%;
+        }
+    }
+    @media only screen and (max-width: 560px) {
+        .photo {
+            display: none;
+
+        }
+        .banner {
+            width: auto;
+            height: 30rem;
+            background-image: url("./images/chess-banner.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 0;
+            margin-bottom: 8rem;
+        }
+        #photos {
+            margin-left: auto;
+            margin-right: auto;
+            
+            width: 85%;
+            
+            display: block;
+        }
+        #photos img {
+            
+            max-width: 400px;
+            width: 100%;
+            object-fit: cover;
+            padding: 0.4rem;
+            
+    }
+    }
+}
